@@ -78,7 +78,3 @@ print "Decision Tree training time: " , round(time() - t0 , 3), "s"
 print "Number of predicted emails that Chris sent is (Using Decision Tree): " , list(results).count(1)
 print "Number of predicted emails that Sara sent is (Using Decision Tree): " , list(results).count(0)
 print "Decision Tree results accuracy: " ,accuracy_score(labels_test , results)
-
-
-
-
